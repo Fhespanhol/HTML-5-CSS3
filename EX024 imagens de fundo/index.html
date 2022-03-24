@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+
+        body{
+            background-image: url("imagens/pattern004.png");
+           
+        }
+        h1{
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+        p{
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+
+        }
+        div.retangulo{
+            display: inline-flex;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: black;
+            width: 450px;
+            height: 600px;
+            padding: 15px;
+        }
+        div.retangulo2{
+            display: inline-flex;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 350px;
+            height: 300px;
+            padding: 20px;
+
+        }
+        div.circulo{
+            display: inline-flex;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 200px;
+            height: 150px;
+            padding: 15px;
+             }
+
+       
+        div#q1{
+            background-color: aqua;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#q3{
+            background-image: url("imagens/pattern003.png");
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Inserindo imagens de fundo em uma página web</h1>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <br>
+   
+   <p>No exemplo acima temos 3 formas de inserir fundo em uma página. Na primeira div temos um preenchimento simples. <br>
+Na segunda div temos um preenchimento gradiente. <br>
+Na terceira div usamos uma imagem de fundo. Para conseguir estes resultados utilize os códigos abaixo:
+</p>
+<div class="retangulo"><img src="imagens/inserirfundo001.jpg" alt="inserir fundo na página.jpg"></div>
+<div class="retangulo2"><img src="imagens/inserirfundo002.jpg" alt="inserir fundo na página 2.jpg"></div>
+<h1>Resultado final</h1>
+<p>A diferença entre os três tipos de inserção de fundo é que no terceiro você pode usar uma imagem qualquer salva no computador. Nos outros dois modelos você trabalha com cores. A imagem de fundo que usei foi a foto de uma folha de <strong>cortiça.</strong></p>
+
+
+
+
+    
+</body>
+</html>
