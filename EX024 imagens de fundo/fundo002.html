@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fundo externo</title>
+    <style>
+        body{
+            background-image: url(https://cdn.pixabay.com/photo/2012/04/18/12/54/strawberry-36949_960_720.png);
+            background-size: 50px 50px;
+            
+
+        }
+        h1{
+            background-color: red;
+            color: wheat;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            text-align: center;
+            box-shadow: 3px 3px 5px black;
+        }
+        p{
+            background-color: lightblue;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            text-align: justify;
+            box-shadow: 3px 3px 5px black;
+        }
+        ul{
+            background-color: lightblue;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            box-shadow: 3px 3px 5px black;
+        }
+        img{
+            box-shadow: 3px 3px 5px black;
+            margin-left: 25.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando imagens de sites como fundo</h1>
+    <p>
+        É possível utilizar imagens diretamente da internet em suas páginas. Para isso basta especificar o endereço do site onde fica a imagem. Para fazer isso basta usar o código abaixo:
+    </p>
+    <img src="imagens/fundoexterno001.png" alt="imagem de fundo externa.png">
+    <p>
+        <strong>Para alterar a forma como esta imagem aparece disposta na tela utilizamos os comandos:</strong> <br>
+        <ul>
+            <li><strong>Background-size</strong>
+            <li>Onde ao alterar o tamanho aumentamos ou diminuimos a quantidade de itens na tela</li></li>
+            <li><strong>Background-repeat</strong>
+            <li>Onde podemos escolher as opções:
+                <li>y - repete a imagem verticalmente</li>
+                <li>x - repete a imagem horizontalmente.</li>
+                <li>no - Não repete a imagem</li>
+            </li></li>
+            
+        </ul>
+    </p>
+    <p><strong>O resultado final é o que você pode ver no fundo desta página.</strong></p>
+    <h1>OBS: você fica preso ao site de origem da imagem, porém a velocidade de carregamento é bem mais alta.</h1>
+
+    
+</body>
+</html>
