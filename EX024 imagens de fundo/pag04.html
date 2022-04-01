@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando o posicionamento</title>
+    <style>
+        div.bloco{
+            background-image: url(https://cdn.pixabay.com/photo/2013/07/12/14/07/basketball-147794_960_720.png);
+            height: 250px;
+            width: 300px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px;
+            background-size: 400px;
+            display: inline-block;
+        }
+        div#q1{
+            background-position: left top;
+            
+        }
+        div#q2{
+            background-position: left center;
+        }
+        div#q3{
+            background-position: right bottom;
+        }
+        div#q4{
+            background-position: center center;
+        }
+        div.quadro{
+            height: 50px;
+            width: 250px;
+            border: 1px solid black;
+            display: inline-block;
+            margin: 35px;
+            background-color: black;
+        }
+        div.pode{
+            
+            border: 1px solid black;
+            display: inline-block;
+            margin: 25px;
+            background-color: black;
+             }
+        h1{
+            background-color: black;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 28px;
+            border-radius: 10px;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>
+        Alterando o posicionamento de imagens externas
+    </h1>
+    <div class="bloco" id="q1"></div>
+    <div class="bloco" id="q2"></div>
+    <div class="bloco" id="q3"></div>
+    <div class="bloco" id="q4"></div>
+    <div class="quadro">
+        <p>Left-top</p>
+    </div>
+    <div class="quadro">
+        <p>Left-center</p>
+    </div>
+    <div class="quadro"><p>Right-bottom</p></div>
+    <div class="quadro"><p>Center center</p></div>
+    
+    <div class="pode"><p>
+        Para alterar o posicionamento das imagens de fundo como no exemplo acima utilizamos os comandos abaixo: 
+    </p></div> <br>
+    <img src="imagens/posicaofundo001.png" alt="posicaofundo001.png"> <br>
+    <img src="imagens/posicaofundo002.png" alt="posicaofundo002.png"> <br>
+    <img src="imagens/posicaofundo003.png" alt="posicaofundo003.png">
+    
+</body>
+</html>
